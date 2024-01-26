@@ -10,11 +10,13 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import os
+import django
 from pathlib import Path
+from django.conf import global_settings
+from django.utils.translation import gettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -26,7 +28,6 @@ SECRET_KEY = "django-insecure-nfeyi-dseyxwm+%@r%!c=9d8##gapi*8rtz_4_6pxetrhl&w_1
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -71,7 +72,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "sftsgroup.wsgi.application"
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -81,7 +81,6 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -101,18 +100,34 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
-# https://docs.djangoproject.com/en/5.0/topics/i18n/
+LANGUAGES = [
+    ("ru", _("Russian")),
+    ("en", _("English")),
+    ("uz", _("Uzbek")),
+]
 
-LANGUAGE_CODE = "uz"
+EXTRA_LANG_INFO = {
+    "uz": {
+        "bidi": False,  # right-to-left
+        "code": "uz",
+        "name": "Uzbek",
+        "name_local": "O'zbek",
+    },
+}
+
+LANGUAGE_CODE = "en"
+
+LANG_INFO = dict(django.conf.locale.LANG_INFO, **EXTRA_LANG_INFO)
+django.conf.locale.LANG_INFO = LANG_INFO
+global_settings.LANGUAGES = global_settings.LANGUAGES + [("uz", "Uzbek")]
+# https://docs.djangoproject.com/en/5.0/topics/i18n/
 
 TIME_ZONE = "Asia/Tashkent"
 
 USE_I18N = True
 
 USE_TZ = True
-
 
 # STATIC
 # ------------------------------------------------------------------------------
