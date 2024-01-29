@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .\base\models.py:8
 msgid "First name"
@@ -76,11 +76,11 @@ msgstr ""
 
 #: .\templates\_includes\navbar.html:26
 msgid "Contact"
-msgstr "Kontakt"
+msgstr ""
 
 #: .\templates\base.html:70
 msgid "Automation of business processes"
-msgstr "Biznes jarayonlarini avtomatlashtirish"
+msgstr ""
 
 #: .\templates\base.html:72
 msgid ""
@@ -88,7 +88,7 @@ msgid ""
 "to automated systems, which allows you to free up resources, respond to "
 "market changes in a timely manner, make quick decisions and plan further "
 "actions of the company."
-msgstr "Bu xodimlarning muntazam vazifalariga echimlarni avtomatlashtirilgan tizimlarga o'tkazish jarayoni bo'lib, bu sizga resurslarni bo'shatish, bozor o'zgarishlariga o'z vaqtida javob berish, tezkor qarorlar qabul qilish va kompaniyaning keyingi harakatlarini rejalashtirish imkonini beradi."
+msgstr ""
 
 #: .\templates\base.html:76
 msgid "FINANCIAL ANALYSIS"

@@ -15,19 +15,16 @@
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
 
                         <li class="has-children">
-                            <a href="#about-section" class="nav-link">About</a>
+                            <a href="#about-section" class="nav-link">{% trans 'About' %}</a>
                             <ul class="dropdown">
-                                <li><a href="#services-section" class="nav-link">Services</a></li>
-                                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                                <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+                                <li><a href="#services-section" class="nav-link">{% trans 'Services' %}</a></li>
+                                <li><a href="#testimonials-section" class="nav-link">{% trans 'Testimonials' %}</a></li>
+                                <li><a href="#faq-section" class="nav-link">{% trans 'FAQ' %}</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                        <li class="social"><a href="#contact-section" class="nav-link"><span
-                                class="icon-twitter"></span></a></li>
-                        <li class="social"><a href="#contact-section" class="nav-link"><span
-                                class="icon-linkedin"></span></a></li>
+                        <li><a href="#contact-section" class="nav-link">{% trans 'Contact' %}</a></li>
+
                         <li class="has-children">
 
                             {% get_available_languages as LANGUAGES %}

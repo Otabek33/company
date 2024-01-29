@@ -1,4 +1,4 @@
-{% load static %}
+{% load static i18n %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -66,44 +66,30 @@
 
                     <div class="single-text owl-carousel">
                         <div class="slide">
-                            <h1 class="text-uppercase" data-aos="fade-up">Automation of business processes</h1>
-                            <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">This is the process of
-                                transferring solutions to routine tasks of employees to automated systems, which allows
-                                you to free up resources,
-                                respond to market changes in a timely manner, make quick decisions and plan further
-                                actions of the company.</p>
-                            <div data-aos="fade-up" data-aos-delay="100">
-                                <a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2">Get in touch</a>
-                            </div>
+                            <h1 class="text-uppercase"
+                                data-aos="fade-up">{% trans 'Automation of business processes' %}</h1>
+                            <p class="mb-5 desc" data-aos="fade-up"
+                               data-aos-delay="100">{% trans 'This is the process of transferring solutions to routine tasks of employees to automated systems, which allows you to free up resources, respond to market changes in a timely manner, make quick decisions and plan further actions of the company.' %}</p>
+
                         </div>
                         <div class="slide">
-                            <h1 class="text-uppercase" data-aos="fade-up">FINANCIAL ANALYSIS</h1>
-                            <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Analysis of the main financial
-                                indicators of the company's activities: liquidity, asset turnover, profitability, market
-                                value.</p>
-                            <div data-aos="fade-up" data-aos-delay="100">
-                                <a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2">Get in touch</a>
-                            </div>
+                            <h1 class="text-uppercase" data-aos="fade-up">{% trans 'FINANCIAL ANALYSIS' %}</h1>
+                                <p class="mb-5 desc" data-aos="fade-up"
+                                   data-aos-delay="100">{% trans "Analysis of the main financial indicators of the company's activities: liquidity, asset turnover, profitability, market value." %}</p>
+
                         </div>
 
 
                         <div class="slide">
-                            <h1 class="text-uppercase" data-aos="fade-up">BUDGETING</h1>
-                            <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">Budgeting is the process of
-                                drafting, executing, monitoring and analyzing the execution of budgets of
-                                organizations.</p>
-                            <div data-aos="fade-up" data-aos-delay="100">
-                                <a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2">Get in touch</a>
-                            </div>
+                            <h1 class="text-uppercase" data-aos="fade-up">{% trans 'BUDGETING' %}</h1>
+                                <p class="mb-5 desc" data-aos="fade-up"
+                                   data-aos-delay="100">{% trans 'Budgeting is the process of drafting, executing, monitoring and analyzing the execution of budgets of  organizations.' %}</p>
+
                         </div>
                         <div class="slide">
-                            <h1 class="text-uppercase" data-aos="fade-up">BUILDING A FINANCIAL MODEL</h1>
-                            <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">This is a set of
-                                characteristics that reflect the current state of affairs and become the basis for
-                                forecasts for the future.</p>
-                            <div data-aos="fade-up" data-aos-delay="100">
-                                <a href="#" target="_blank" class="btn  btn-primary mr-2 mb-2">Get in touch</a>
-                            </div>
+                            <h1 class="text-uppercase" data-aos="fade-up">{% trans 'BUILDING A FINANCIAL MODEL' %}</h1>
+                                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">{% trans 'This is a set of characteristics that reflect the current state of affairs and become the basis for forecasts for the future.' %}</p>
+
                         </div>
 
 
@@ -125,10 +111,9 @@
         <div class="container">
             <div class="row mb-5 justify-content-center">
                 <div class="col-md-8 text-center">
-                    <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">About Us</h2>
-                    <p class="lead" data-aos="fade-up" data-aos-delay="100">At Smart FinTech Solution Group, we
-                        specialize in harnessing the power of modern technologies to solve your financial problems
-                        effectively. </p>
+                    <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">{% trans 'About Us' %}</h2>
+                        <p class="lead" data-aos="fade-up"
+                           data-aos-delay="100">{% trans 'At Smart FinTech Solution Group, we specialize in harnessing the power of modern technologies to solve your financial problems effectively.' %}</p>
                 </div>
             </div>
             <div class="row">
@@ -140,158 +125,25 @@
                 </div>
                 <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
 
-                    <h3 class="text-black mb-4">We Solve Your Financial Problem</h3>
+                    <h3 class="text-black mb-4">{% trans 'We Solve Your Financial Problem' %}</h3>
 
-                    <p>Smart FinTech Solution Group is a leading provider of innovative financial technology solutions,
-                        empowering businesses to streamline their operations, optimize financial performance, and drive
-                        growth. </p>
+                        <p>{% trans 'Smart FinTech Solution Group is a leading provider of innovative financial technology solutions, empowering businesses to streamline their operations, optimize financial performance, and  drive growth.' %}</p>
 
-                    <p>With a focus on automation of business processes, financial analysis, budgeting, and building
-                        robust financial models, we deliver tailored solutions to meet the unique needs of our clients
-                        across various industries.</p>
+                        <p>{% trans 'With a focus on automation of business processes, financial analysis, budgeting, and building robust financial models, we deliver tailored solutions to meet the unique needs of our clients across various industries.' %}</p>
 
                 </div>
             </div>
 
         </div>
     </div>
-
-    {#    <div class="site-section" id="next">#}
-    {#        <div class="container">#}
-    {#            <div class="row mb-5">#}
-    {#                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="">#}
-    {#                    <img src="{%  static 'images/flaticon-' %}svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co"#}
-    {#                         class="img-fluid w-25 mb-4">#}
-    {#                    <h3 class="card-title">Money Savings</h3>#}
-    {#                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>#}
-    {#                </div>#}
-    {#                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">#}
-    {#                    <img src="{%  static 'images/flaticon-' %}svg/svg/004-cart.svg" alt="Free Website Template by Free-Template.co"#}
-    {#                         class="img-fluid w-25 mb-4">#}
-    {#                    <h3 class="card-title">Online Shoppings</h3>#}
-    {#                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>#}
-    {#                </div>#}
-    {#                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">#}
-    {#                    <img src="{%  static 'images/flaticon-' %}svg/svg/006-credit-card.svg"#}
-    {#                         alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">#}
-    {#                    <h3 class="card-title">Credit / Debit Cards</h3>#}
-    {#                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>#}
-    {#                </div>#}
-    {##}
-    {#            </div>#}
-    {##}
-    {#            <div class="row">#}
-    {#                <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">#}
-    {#                    <figure class="circle-bg">#}
-    {#                        <img src="{%  static 'images/about_2.j' %}pg" alt="Free Website Template by Free-Template.co" class="img-fluid">#}
-    {#                    </figure>#}
-    {#                </div>#}
-    {#                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">#}
-    {#                    <div class="mb-4">#}
-    {#                        <h3 class="h3 mb-4 text-black">Banking Solutions Is Our Priority</h3>#}
-    {#                        <p>A small river named Duden flows by their place and supplies it with the necessary#}
-    {#                            regelialia.</p>#}
-    {##}
-    {#                    </div>#}
-    {##}
-    {#                    <div class="mb-4">#}
-    {#                        <ul class="list-unstyled ul-check success">#}
-    {#                            <li>Officia quaerat eaque neque</li>#}
-    {#                            <li>Lorem ipsum dolor sit amet</li>#}
-    {#                            <li>Consectetur adipisicing elit</li>#}
-    {#                        </ul>#}
-    {##}
-    {#                    </div>#}
-    {##}
-    {##}
-    {#                </div>#}
-    {#            </div>#}
-    {#        </div>#}
-    {#    </div>#}
-    {##}
-    {##}
-    {##}
-    {#    <section class="site-section border-bottom" id="team-section">#}
-    {#        <div class="container">#}
-    {#            <div class="row mb-5 justify-content-center">#}
-    {#                <div class="col-md-8 text-center">#}
-    {#                    <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Meet Team</h2>#}
-    {#                    <p class="lead" data-aos="fade-up" data-aos-delay="100">A small river named Duden flows by their#}
-    {#                        place and supplies it with the necessary regelialia.</p>#}
-    {#                </div>#}
-    {#            </div>#}
-    {#            <div class="row">#}
-    {##}
-    {##}
-    {#                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="">#}
-    {#                    <div class="team-member">#}
-    {#                        <figure>#}
-    {#                            <ul class="social">#}
-    {#                                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-linkedin"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
-    {#                            </ul>#}
-    {#                            <img src="{%  static 'images/person_1.' %}jpg" alt="Image" class="img-fluid">#}
-    {#                        </figure>#}
-    {#                        <div class="p-3">#}
-    {#                            <h3>Kaiara Spencer</h3>#}
-    {#                            <span class="position">Accountant</span>#}
-    {#                        </div>#}
-    {#                    </div>#}
-    {#                </div>#}
-    {##}
-    {#                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">#}
-    {#                    <div class="team-member">#}
-    {#                        <figure>#}
-    {#                            <ul class="social">#}
-    {#                                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-linkedin"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
-    {#                            </ul>#}
-    {#                            <img src="{%  static 'images/person_2.' %}jpg" alt="Image" class="img-fluid">#}
-    {#                        </figure>#}
-    {#                        <div class="p-3">#}
-    {#                            <h3>Dave Simpson</h3>#}
-    {#                            <span class="position">Bank Teller</span>#}
-    {#                        </div>#}
-    {#                    </div>#}
-    {#                </div>#}
-    {##}
-    {#                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">#}
-    {#                    <div class="team-member">#}
-    {#                        <figure>#}
-    {#                            <ul class="social">#}
-    {#                                <li><a href="#"><span class="icon-facebook"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-twitter"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-linkedin"></span></a></li>#}
-    {#                                <li><a href="#"><span class="icon-instagram"></span></a></li>#}
-    {#                            </ul>#}
-    {#                            <img src="{%  static 'images/person_3.' %}jpg" alt="Image" class="img-fluid">#}
-    {#                        </figure>#}
-    {#                        <div class="p-3">#}
-    {#                            <h3>Ben Thompson</h3>#}
-    {#                            <span class="position">Bank Teller</span>#}
-    {#                        </div>#}
-    {#                    </div>#}
-    {#                </div>#}
-    {##}
-    {##}
-    {#            </div>#}
-    {#        </div>#}
-    {#    </section>#}
-
-
-
-
     <section class="site-section">
         <div class="container">
 
             <div class="row mb-5 justify-content-center">
                 <div class="col-md-7 text-center">
-                    <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Our works</h2>
-                    <p class="lead" data-aos="fade-up" data-aos-delay="100">Smart FinTech Solution Group specializes in providing innovative financial technology solutions to businesses across various industries. Their work focuses on automation of business processes, financial analysis, budgeting, and building financial models.</p>
+                    <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">{% trans 'Our works' %}</h2>
+                        <p class="lead" data-aos="fade-up"
+                           data-aos-delay="100">{% trans 'Smart FinTech Solution Group specializes in providing innovative financial technology solutions to businesses across various industries. Their work focuses on automation of business processes, financial analysis, budgeting, and building financial models.' %}</p>
                 </div>
             </div>
 
@@ -313,21 +165,18 @@
 
                     <div class="owl-carousel slide-one-item-alt-text">
                         <div>
-                            <h2 class="section-title mb-3">01. Warehouse control system</h2>
-                            <p>A WCS coordinates the movements of materials throughout the warehouse to ensure an efficient and smooth workflow from receiving to shipping</p>
+                            <h2 class="section-title mb-3">{% trans '01. Warehouse control system' %}</h2>
+                                <p>{% trans 'A WCS coordinates the movements of materials throughout the warehouse to ensure an efficient and smooth workflow from receiving to shipping' %}</p>
 
-{#                            <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>#}
                         </div>
                         <div>
-                            <h2 class="section-title mb-3">02. Track monitoring system</h2>
-                            <p>Track monitoring systems offer continuous operation and automated processing, alerts, data visualization, and reports. </p>
-{#                            <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>#}
+                            <h2 class="section-title mb-3">{% trans '02. Track monitoring system' %}</h2>
+                                <p>{% trans 'Track monitoring systems offer continuous operation and automated processing, alerts, data visualization, and reports.' %}</p>
                         </div>
                         <div>
-                            <h2 class="section-title mb-3">03. Salary bot</h2>
-                            <p>Salary bot gives information about workers salary depending on choosing month</p>
+                            <h2 class="section-title mb-3">{% trans '03. Salary bot' %}</h2>
+                                <p>{% trans 'Salary bot gives information about workers salary depending on choosing month' %}</p>
 
-{#                            <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>#}
                         </div>
 
                     </div>
@@ -342,7 +191,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-center" data-aos="fade">
-                    <h2 class="section-title mb-3">Our Services</h2>
+                    <h2 class="section-title mb-3">{% trans 'Our Services' %}</h2>
                 </div>
             </div>
             <div class="row align-items-stretch">
@@ -353,12 +202,10 @@
                                  alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
                         </div>
                         <div>
-                            <h3>Financial analysis</h3>
-                            <p class="text-justify text-truncate" style="max-width: 400px;">Financial analysis is the
-                                process of examining a company's performance in the context of its industry and economic
-                                environment
-                                in order to arrive at a decision or recommendation.</p>
-{#                            <p><a href="#">Learn More</a></p>#}
+                            <h3>{% trans 'Financial analysis' %}</h3>
+                                <p class="text-justify text-truncate"
+                                   style="max-width: 400px;">{% trans "Financial analysis is the process of examining a company's performance in the context of its industry and economic environment in order to arrive at a decision or recommendation." %}</p>
+
                         </div>
                     </div>
                 </div>
@@ -369,11 +216,10 @@
                                  alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
                         </div>
                         <div>
-                            <h3>Budgeting</h3>
-                            <p class="text-justify text-truncate" style="max-width: 400px;">Financial budgeting is the
-                                process of planning company expenses and revenues for a time period. Budgets set forth
-                                the plans of management in financial terms.</p>
-{#                            <p><a href="#">Learn More</a></p>#}
+                            <h3>{% trans 'Budgeting' %}</h3>
+                                <p class="text-justify text-truncate"
+                                   style="max-width: 400px;">{% trans 'Financial budgeting is the process of planning company expenses and revenues for a time period. Budgets set forth the plans of management in financial terms.' %}</p>
+                                {#                            <p><a href="#">Learn More</a></p>#}
                         </div>
                     </div>
                 </div>
@@ -384,12 +230,10 @@
                                  alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
                         </div>
                         <div>
-                            <h3>Building a financial modal</h3>
-                            <p class="text-justify text-truncate" style="max-width: 400px;">A financial model is a
-                                mathematical representation of how a company works. It is used to forecast the business'
-                                financial performance, provide direction, and give context to uncertainty, and creating
-                                one of these models is financial modeling.</p>
-{#                            <p><a href="#">Learn More</a></p>#}
+                            <h3>{% trans 'Building a financial modal' %}</h3>
+                                <p class="text-justify text-truncate"
+                                   style="max-width: 400px;">{% trans "A financial model is a mathematical representation of how a company works. It is used to forecast the business' financial performance, provide direction, and give context to uncertainty, and creating one of these models is financial modeling." %}</p>
+                                {#                            <p><a href="#">Learn More</a></p>#}
                         </div>
                     </div>
                 </div>
@@ -400,11 +244,10 @@
                                  alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
                         </div>
                         <div>
-                            <h3>Financial Investment</h3>
-                            <p class="text-justify text-truncate" style="max-width: 400px;">A financial investment is an
-                                asset that you put money into with the hope that it will grow or appreciate into a
-                                larger sum of money.</p>
-{#                            <p><a href="#">Learn More</a></p>#}
+                            <h3>{% trans 'Financial Investment' %}</h3>
+                                <p class="text-justify text-truncate"
+                                   style="max-width: 400px;">{% trans 'A financial investment is an asset that you put money into with the hope that it will grow or appreciate into a larger sum of money.' %}</p>
+                                {#                            <p><a href="#">Learn More</a></p>#}
                         </div>
                     </div>
                 </div>
@@ -417,11 +260,10 @@
                                  alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
                         </div>
                         <div>
-                            <h3>ERP system</h3>
-                            <p class="text-justify text-truncate" style="max-width: 400px;">Enterprise resource planning
-                                (ERP) is a platform companies use to manage and integrate the essential parts of their
-                                businesses.</p>
-{#                            <p><a href="#">Learn More</a></p>#}
+                            <h3>{% trans 'ERP system' %}</h3>
+                                <p class="text-justify text-truncate"
+                                   style="max-width: 400px;">{% trans 'Enterprise resource planning (ERP) is a platform companies use to manage and integrate the essential parts of their businesses.' %}</p>
+                                {#                            <p><a href="#">Learn More</a></p>#}
                         </div>
                     </div>
                 </div>
@@ -433,11 +275,10 @@
                                  alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
                         </div>
                         <div>
-                            <h3>CRM system</h3>
-                            <p class="text-justify text-truncate" style="max-width: 400px;">A CRM system helps
-                                businesses organize and centralize their information on customers, allowing for easier
-                                access and customer support. </p>
-{#                            <p><a href="#">Learn More</a></p>#}
+                            <h3>{% trans 'CRM system' %}</h3>
+                                <p class="text-justify text-truncate"
+                                   style="max-width: 400px;">{% trans 'A CRM system helps businesses organize and centralize their information on customers, allowing for easier access and customer support.' %}</p>
+                                {#                            <p><a href="#">Learn More</a></p>#}
                         </div>
                     </div>
                 </div>
@@ -449,10 +290,10 @@
                                  alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
                         </div>
                         <div>
-                            <h3>Website development</h3>
-                            <p class="text-justify text-truncate" style="max-width: 400px;">Web development is the
-                                process of building, programming, and maintaining websites and web applications.</p>
-{#                            <p><a href="#">Learn More</a></p>#}
+                            <h3>{% trans 'Website development' %}</h3>
+                                <p class="text-justify text-truncate"
+                                   style="max-width: 400px;">{% trans 'Web development is the process of building, programming, and maintaining websites and web applications.' %}</p>
+                                {#                            <p><a href="#">Learn More</a></p>#}
                         </div>
                     </div>
                 </div>
@@ -464,11 +305,10 @@
                                  alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
                         </div>
                         <div>
-                            <h3>Telegram bots</h3>
-                            <p class="text-justify text-truncate" style="max-width: 400px;">Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. In, iusto eaque velit saepe
-                                nobis ipsa?</p>
-{#                            <p><a href="#">Learn More</a></p>#}
+                            <h3>{% trans 'Telegram bots' %}</h3>
+                                <p class="text-justify text-truncate"
+                                   style="max-width: 400px;">{% trans 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iusto eaque velit saepe nobis ipsa?' %}</p>
+                                {#                            <p><a href="#">Learn More</a></p>#}
                         </div>
                     </div>
                 </div>
@@ -481,7 +321,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-center">
-                    <h2 class="section-title mb-3">Happy Customers</h2>
+                    <h2 class="section-title mb-3">{% trans 'Happy Customers' %}</h2>
                 </div>
             </div>
         </div>
@@ -490,10 +330,7 @@
                 <div class="testimonial">
 
                     <blockquote class="mb-5">
-                        <p>&ldquo;Thank you, Smart FinTech Solution Group, for your exceptional service! Your innovative
-                            technologies have revolutionized our financial processes, making them more efficient and
-                            effective.
-                            We appreciate your dedication to our success. Here's to continued partnership and growth!&rdquo;</p>
+                        <p>{% trans "&ldquo;Thank you, Smart FinTech Solution Group, for your exceptional service! Your innovative technologies have revolutionized our financial processes, making them more efficient and effective. We appreciate your dedication to our success. Here's to continued partnership and growth!&rdquo;" %}</p>
                     </blockquote>
 
                     <figure class="mb-4 d-flex align-items-center justify-content-center">
@@ -507,10 +344,7 @@
                 <div class="testimonial">
 
                     <blockquote class="mb-5">
-                        <p>&ldquo;Dear Smart FinTech Solution Group,
-                            Thank you for your outstanding service! Your innovative technologies have transformed our
-                            financial processes, making them more efficient and effective. We're grateful for your
-                            expertise and dedication to our success. .&rdquo;</p>
+                        <p>{% trans "&ldquo;Dear Smart FinTech Solution Group, Thank you for your outstanding service! Your innovative technologies have transformed our financial processes, making them more efficient and effective. We're grateful for your expertise and dedication to our success. .&rdquo;" %}</p>
                     </blockquote>
                     <figure class="mb-4 d-flex align-items-center justify-content-center">
                         <div><img src="{% static 'images/person_2.' %}jpg" alt="Image" class="w-50 img-fluid mb-3">
@@ -525,10 +359,7 @@
                 <div class="testimonial">
 
                     <blockquote class="mb-5">
-                        <p>&ldquo;Smart FinTech Solution Group,
-                            We want to express our sincere gratitude for your excellent service! Your innovative
-                            technologies have streamlined our financial operations, leading to increased efficiency and
-                            productivity. Thank you for your dedication to our success. &rdquo;</p>
+                        <p>{% trans '&ldquo;Smart FinTech Solution Group, We want to express our sincere gratitude for your excellent service! Your innovative technologies have streamlined our financial operations, leading to increased efficiency and productivity. Thank you for your dedication to our success. &rdquo;' %}</p>
                     </blockquote>
                     <figure class="mb-4 d-flex align-items-center justify-content-center">
                         <div><img src="{% static 'images/person_3.' %}jpg" alt="Image" class="w-50 img-fluid mb-3">
@@ -544,10 +375,7 @@
                 <div class="testimonial">
 
                     <blockquote class="mb-5">
-                        <p>&ldquo;Thank you, Smart FinTech Solution Group,
-                            Your exceptional service has made a significant impact on our financial processes! Your
-                            innovative technologies have revolutionized the way we work, making us more efficient and
-                            effective. We appreciate your commitment to our success.&rdquo;</p>
+                        <p>{% trans '&ldquo;Thank you, Smart FinTech Solution Group, Your exceptional service has made a significant impact on our financial processes! Your innovative technologies have revolutionized the way we work, making us more efficient and effective. We appreciate your commitment to our success.&rdquo;' %}</p>
                     </blockquote>
                     <figure class="mb-4 d-flex align-items-center justify-content-center">
                         <div><img src="{% static 'images/person_1.' %}jpg" alt="Image" class="w-50 img-fluid mb-3">
@@ -566,47 +394,47 @@
 
             <div class="row site-section" id="faq-section">
                 <div class="col-12 text-center" data-aos="fade">
-                    <h2 class="section-title">Frequently Ask Questions</h2>
+                    <h2 class="section-title">{% trans 'Frequently Ask Questions' %}</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
 
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-black h4 mb-4">What services does Smart FinTech Solution Group offer?</h3>
-                        <p>Smart FinTech Solution Group specializes in automation of business processes, financial analysis, budgeting, and building financial models.</p>
+                        <h3 class="text-black h4 mb-4">{% trans 'What services does Smart FinTech Solution Group offer?' %}</h3>
+                            <p>{% trans 'Smart FinTech Solution Group specializes in automation of business processes, financial analysis, budgeting, and building financial models.' %}</p>
                     </div>
 
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-black h4 mb-4"> What industries does Smart FinTech Solution Group serve?</h3>
-                        <p>We serve clients across diverse industries, including banking and finance, manufacturing, retail, healthcare, and technology.</p>
+                        <h3 class="text-black h4 mb-4"> {% trans 'What industries does Smart FinTech Solution Group serve?' %}</h3>
+                            <p>{% trans 'We serve clients across diverse industries, including banking and finance, manufacturing, retail, healthcare, and technology.' %}</p>
                     </div>
 
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-black h4 mb-4">Can Smart FinTech Solution Group customize its services to meet specific client needs?</h3>
-                        <p>Yes, we tailor our solutions to meet the unique requirements of each client, ensuring that our services align with their business objectives and challenges.</p>
+                        <h3 class="text-black h4 mb-4">{% trans 'Can Smart FinTech Solution Group customize its services to meet specific client needs?' %}</h3>
+                            <p>{% trans 'Yes, we tailor our solutions to meet the unique requirements of each client, ensuring that our services align with their business objectives and challenges.' %}</p>
                     </div>
 
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-black h4 mb-4"> How experienced is the team at Smart FinTech Solution Group?</h3>
-                        <p>Our team comprises seasoned professionals with extensive experience in finance, technology, and business consulting, ensuring the highest standards of service excellence and client satisfaction.</p>
+                        <h3 class="text-black h4 mb-4"> {% trans 'How experienced is the team at Smart FinTech Solution Group?' %}</h3>
+                            <p>{% trans 'Our team comprises seasoned professionals with extensive experience in finance, technology, and business consulting, ensuring the highest standards of service excellence and client satisfaction.' %}</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
 
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-black h4 mb-4">What benefits can clients expect from working with Smart FinTech Solution Group?</h3>
-                        <p> Clients can expect benefits such as enhanced efficiency, insightful analysis, effective budgeting, and robust financial models, empowering them to make informed decisions and drive growth.</p>
+                        <h3 class="text-black h4 mb-4">{% trans 'What benefits can clients expect from working with Smart FinTech Solution Group?' %}</h3>
+                            <p> {% trans 'Clients can expect benefits such as enhanced efficiency, insightful analysis, effective budgeting, and robust financial models, empowering them to make informed decisions and drive growth.' %}</p>
                     </div>
 
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-black h4 mb-4">Can Smart FinTech Solution Group integrate with existing systems and software?</h3>
-                        <p>Yes, we understand the importance of seamless integration with existing systems and software. Our solutions are designed to be flexible and compatible, allowing for smooth integration with a wide range of platforms and applications.</p>
+                        <h3 class="text-black h4 mb-4">{% trans 'Can Smart FinTech Solution Group integrate with existing systems and software?' %}</h3>
+                            <p>{% trans 'Yes, we understand the importance of seamless integration with existing systems and software. Our solutions are designed to be flexible and compatible, allowing for smooth integration with a wide range of platforms and applications.' %}</p>
                     </div>
 
                     <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-black h4 mb-4">How does Smart FinTech Solution Group ensure data security and confidentiality?</h3>
-                        <p>We take data security and confidentiality seriously. Our solutions adhere to industry-leading security standards and protocols to safeguard sensitive information. We implement robust encryption measures, access controls, and regular security audits to mitigate risks and protect client data.</p>
+                        <h3 class="text-black h4 mb-4">{% trans 'How does Smart FinTech Solution Group ensure data security and confidentiality?' %}</h3>
+                            <p>{% trans 'We take data security and confidentiality seriously. Our solutions adhere to industry-leading security standards and protocols to safeguard sensitive information. We implement robust encryption measures, access controls, and regular security audits to mitigate risks and protect client data.' %}</p>
                     </div>
                 </div>
             </div>
@@ -619,14 +447,11 @@
     </section>
 
 
-
-
-
     <section class="site-section bg-light" id="contact-section" data-aos="fade">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-center">
-                    <h2 class="section-title mb-3">Contact Us</h2>
+                    <h2 class="section-title mb-3">{% trans 'Contact Us' %}</h2>
                 </div>
             </div>
             <div class="row mb-5">
@@ -635,9 +460,7 @@
                 <div class="col-md-4 text-center">
                     <p class="mb-4">
                         <span class="icon-room d-block h2 text-primary"></span>
-                        <span>
-123 Main Street, Mirzo Ulugbek District
-Tashkent, Uzbekistan</span>
+                        <span>{% trans '123 Main Street, Mirzo Ulugbek District Tashkent, Uzbekistan' %}</span>
                     </p>
                 </div>
                 <div class="col-md-4 text-center">
@@ -665,7 +488,7 @@ Tashkent, Uzbekistan</span>
                         <div class="row form-group">
                             <div class="col-md-6 mb-3 mb-md-0">
                                 <label class="text-black" for="fname">First Name</label>
-                               {{ form.first_name }}
+                                {{ form.first_name }}
                             </div>
                             <div class="col-md-6">
                                 <label class="text-black" for="lname">Last Name</label>
@@ -677,7 +500,7 @@ Tashkent, Uzbekistan</span>
 
                             <div class="col-md-12">
                                 <label class="text-black" for="email">Email</label>
-                                 {{ form.email }}
+                                {{ form.email }}
                             </div>
                         </div>
 
@@ -685,7 +508,7 @@ Tashkent, Uzbekistan</span>
 
                             <div class="col-md-12">
                                 <label class="text-black" for="subject">Subject</label>
-                                 {{ form.subject }}
+                                {{ form.subject }}
                             </div>
                         </div>
 
@@ -717,27 +540,27 @@ Tashkent, Uzbekistan</span>
                 <div class="col-md-9">
                     <div class="row">
                         <div class="col-md-5">
-                            <h2 class="footer-heading mb-4">About Us</h2>
-                            <p>At Smart FinTech Solution Group, we believe in the power of technology to transform financial processes and unlock new opportunities for our clients. Our team of seasoned professionals brings together expertise in finance, technology, and business consulting to deliver solutions that drive tangible results and create lasting value
-                                .</p>
+                            <h2 class="footer-heading mb-4">{% trans 'About Us' %}</h2>
+                                <p>{% trans 'At Smart FinTech Solution Group, we believe in the power of technology to transform financial processes and unlock new opportunities for our clients. Our team of seasoned professionals brings together expertise in finance, technology, and business consulting to deliver solutions that drive tangible results and create lasting value.' %}</p>
                         </div>
                         <div class="col-md-3 ml-auto">
-                            <h2 class="footer-heading mb-4">Quick Links</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="#about-section" class="smoothscroll">Terms</a></li>
-                                <li><a href="#about-section" class="smoothscroll">Policy</a></li>
-                                <li><a href="#about-section" class="smoothscroll">About Us</a></li>
-                                <li><a href="#services-section" class="smoothscroll">Services</a></li>
-                                <li><a href="#testimonials-section" class="smoothscroll">Testimonials</a></li>
-                                <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
-                            </ul>
+                            <h2 class="footer-heading mb-4">{% trans 'Quick Links' %}</h2>
+                                <ul class="list-unstyled">
+                                    <li><a href="#about-section" class="smoothscroll">{% trans 'Terms' %}</a></li>
+                                    <li><a href="#about-section" class="smoothscroll">{% trans 'Policy' %}</a></li>
+                                    <li><a href="#about-section" class="smoothscroll">{% trans 'About Us' %}</a></li>
+                                    <li><a href="#services-section" class="smoothscroll">{% trans 'Services' %}</a></li>
+                                    <li><a href="#testimonials-section"
+                                           class="smoothscroll">{% trans 'Testimonials' %}</a></li>
+                                    <li><a href="#contact-section" class="smoothscroll">{% trans 'Contact Us' %}</a></li>
+                                </ul>
                         </div>
                         <div class="col-md-3 footer-social">
-                            <h2 class="footer-heading mb-4">Follow Us</h2>
+                            <h2 class="footer-heading mb-4">{% trans 'Follow Us' %}</h2>
 
-                            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
 
-                            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
                         </div>
                     </div>
                 </div>
