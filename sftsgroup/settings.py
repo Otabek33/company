@@ -61,6 +61,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     'django.middleware.locale.LocaleMiddleware',
     "django.middleware.common.CommonMiddleware",
@@ -216,6 +217,7 @@ SECURE_CONTENT_TYPE_NOSNIFF = env.bool(
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 # STATIC
 STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+
 # MEDIA
 # ------------------------------------------------------------------------------
 
