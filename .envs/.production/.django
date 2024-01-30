@@ -1,0 +1,24 @@
+# General
+# ------------------------------------------------------------------------------
+# DJANGO_READ_DOT_ENV_FILE=True
+
+DJANGO_SECRET_KEY=django-insecure-nfeyi-dseyxwm+%@r%!c=9d8##gapi*8rtz_4_6pxetrhl&w_1
+DJANGO_ADMIN_URL=WW94knxVgqvs9jH4hfPt5JQ20A1thgcS/
+DJANGO_ALLOWED_HOSTS=.otabek-blog.uz,sub.otabek-blog.uz,176.221.28.147
+DJANGO_DEBUG=True
+# Security
+# ------------------------------------------------------------------------------
+# TIP: better off using DNS, however, redirect is OK too
+DJANGO_SECURE_SSL_REDIRECT=True
+
+# django-allauth
+# ------------------------------------------------------------------------------
+DJANGO_ACCOUNT_ALLOW_REGISTRATION=True
+
+# secure-hsts-preload
+# ------------------------------------------------------------------------------
+DJANGO_SECURE_HSTS_PRELOAD=True
+# Gunicorn
+# ------------------------------------------------------------------------------
+WEB_CONCURRENCY=4
+
