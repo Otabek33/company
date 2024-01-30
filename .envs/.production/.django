@@ -2,7 +2,7 @@
 # ------------------------------------------------------------------------------
 # DJANGO_READ_DOT_ENV_FILE=True
 
-DJANGO_SECRET_KEY=s(y1_@27ae6z)!))u*7r344%f6r+#=+#uz!^mu-r47c0t1dive
+DJANGO_SECRET_KEY=django-insecures-(y1_@27ae6z)!))u*7r344%f6r+#=+#uz!^mu-r47c0t1dive
 DJANGO_ADMIN_URL=WW94knxVgqvs9jH4hfPt5JQ20A1thgcS/
 DJANGO_ALLOWED_HOSTS=.otabek-blog.uz,sub.otabek-blog.uz,176.221.28.147
 DJANGO_DEBUG=False
