@@ -20,27 +20,27 @@ msgstr ""
 
 #: .\base\models.py:8 .\templates\base.html:490
 msgid "First name"
-msgstr ""
+msgstr "Ism"
 
 #: .\base\models.py:9 .\templates\base.html:494
 msgid "Last name"
-msgstr ""
+msgstr "Familiyasi"
 
 #: .\base\models.py:10 .\templates\base.html:502
 msgid "Email"
-msgstr ""
+msgstr "Elektron pochta"
 
 #: .\base\models.py:11 .\templates\base.html:510
 msgid "Subject"
-msgstr ""
+msgstr "Mavzu"
 
 #: .\base\models.py:12
 msgid "Message"
-msgstr ""
+msgstr "Xabar"
 
 #: .\base\models.py:13
 msgid "Created at"
-msgstr ""
+msgstr "Yaratilgan"
 
 #: .\base\models.py:16
 msgid "contact form"
@@ -64,23 +64,23 @@ msgstr ""
 
 #: .\templates\_includes\navbar.html:18
 msgid "About"
-msgstr ""
+msgstr "Haqida"
 
 #: .\templates\_includes\navbar.html:20 .\templates\base.html:552
 msgid "Services"
-msgstr ""
+msgstr "Xizmatlar"
 
 #: .\templates\_includes\navbar.html:21 .\templates\base.html:554
 msgid "Testimonials"
-msgstr ""
+msgstr "Tavsiyalar"
 
 #: .\templates\_includes\navbar.html:22
 msgid "FAQ"
-msgstr ""
+msgstr "Tez so'raladigan avollar"
 
 #: .\templates\_includes\navbar.html:26
 msgid "Contact"
-msgstr "Kontakt"
+msgstr "Aloqa"
 
 #: .\templates\base.html:70
 msgid "Automation of business processes"
@@ -100,66 +100,66 @@ msgstr ""
 
 #: .\templates\base.html:76
 msgid "FINANCIAL ANALYSIS"
-msgstr ""
+msgstr "MOLIYAVIY TAHLIL"
 
 #: .\templates\base.html:78
 msgid ""
 "Analysis of the main financial indicators of the company's activities: "
 "liquidity, asset turnover, profitability, market value."
-msgstr ""
+msgstr "Kompaniya faoliyatining asosiy moliyaviy ko'rsatkichlarini tahlil qilish: likvidlik, aktivlar aylanmasi, rentabellik, bozor qiymati."
 
 #: .\templates\base.html:84
 msgid "BUDGETING"
-msgstr ""
+msgstr "Byudjetlashtirish"
 
 #: .\templates\base.html:86
 msgid ""
 "Budgeting is the process of drafting, executing, monitoring and analyzing "
 "the execution of budgets of  organizations."
-msgstr ""
+msgstr "Byudjetlashtirish-bu tashkilotlarning byudjetlarini tuzish, ijro etish, monitoring qilish va ijrosini tahlil qilish jarayoni."
 
 #: .\templates\base.html:90
 msgid "BUILDING A FINANCIAL MODEL"
-msgstr ""
+msgstr "MOLIYAVIY MODELNI YARATISH"
 
 #: .\templates\base.html:91
 msgid ""
 "This is a set of characteristics that reflect the current state of affairs "
 "and become the basis for forecasts for the future."
-msgstr ""
+msgstr "Bu hozirgi holatni aks ettiradigan va kelajak uchun prognozlar uchun asos bo'ladigan xususiyatlar to'plamidir."
 
 #: .\templates\base.html:114 .\templates\base.html:543
 #: .\templates\base.html:551
 msgid "About Us"
-msgstr ""
+msgstr "Biz Haqimizda"
 
 #: .\templates\base.html:116
 msgid ""
 "At Smart FinTech Solution Group, we specialize in harnessing the power of "
 "modern technologies to solve your financial problems effectively."
-msgstr ""
+msgstr "Smart FinTech Solution Group-da biz sizning moliyaviy muammolaringizni samarali hal qilish uchun zamonaviy texnologiyalar kuchidan foydalanishga ixtisoslashganmiz."
 
 #: .\templates\base.html:128
 msgid "We Solve Your Financial Problem"
-msgstr ""
+msgstr "Biz Sizning Moliyaviy Muammoingizni Hal Qilib beramiz"
 
 #: .\templates\base.html:130
 msgid ""
 "Smart FinTech Solution Group is a leading provider of innovative financial "
 "technology solutions, empowering businesses to streamline their operations, "
 "optimize financial performance, and  drive growth."
-msgstr ""
+msgstr "Smart FinTech Solution Group innovatsion moliyaviy texnologiya echimlarining etakchi provayderi bo'lib, korxonalarga o'z faoliyatini soddalashtirish, moliyaviy ko'rsatkichlarni optimallashtirish va o'sishni ta'minlash imkoniyatini beradi."
 
 #: .\templates\base.html:132
 msgid ""
 "With a focus on automation of business processes, financial analysis, "
 "budgeting, and building robust financial models, we deliver tailored "
 "solutions to meet the unique needs of our clients across various industries."
-msgstr ""
+msgstr "Biznes jarayonlarini avtomatlashtirish, moliyaviy tahlil, byudjetlashtirish va mustahkam moliyaviy modellarni yaratishga e'tibor qaratgan holda, biz turli sohalarda mijozlarimizning noyob ehtiyojlarini qondirish uchun moslashtirilgan echimlarni taqdim etamiz."
 
 #: .\templates\base.html:144
 msgid "Our works"
-msgstr ""
+msgstr "Bizning loyihalar"
 
 #: .\templates\base.html:146
 msgid ""
@@ -167,66 +167,66 @@ msgid ""
 "technology solutions to businesses across various industries. Their work "
 "focuses on automation of business processes, financial analysis, budgeting, "
 "and building financial models."
-msgstr ""
+msgstr "Smart FinTech Solution Group turli sohalardagi korxonalarga innovatsion moliyaviy texnologiyalar echimlarini taqdim etishga ixtisoslashgan. Ularning ishi biznes jarayonlarini avtomatlashtirish, moliyaviy tahlil, byudjetlashtirish va moliyaviy modellarni yaratishga qaratilgan."
 
 #: .\templates\base.html:168
 msgid "01. Warehouse control system"
-msgstr ""
+msgstr "01. Omborni boshqarish tizimi"
 
 #: .\templates\base.html:169
 msgid ""
 "A WCS coordinates the movements of materials throughout the warehouse to "
 "ensure an efficient and smooth workflow from receiving to shipping"
-msgstr ""
+msgstr "VCS qabul qilishdan yuk tashishgacha samarali va silliq ish oqimini ta'minlash uchun ombor bo'ylab materiallarning harakatini muvofiqlashtiradi"
 
 #: .\templates\base.html:173
 msgid "02. Track monitoring system"
-msgstr ""
+msgstr "02. Kuzatuv tizimi"
 
 #: .\templates\base.html:174
 msgid ""
 "Track monitoring systems offer continuous operation and automated "
 "processing, alerts, data visualization, and reports."
-msgstr ""
+msgstr "Treklarni kuzatish tizimlari uzluksiz ishlash va avtomatlashtirilgan ishlov berish, ogohlantirishlar, ma'lumotlarni vizualizatsiya qilish va hisobotlarni taklif etadi."
 
 #: .\templates\base.html:177
 msgid "03. Salary bot"
-msgstr ""
+msgstr "03. Ish haqi bot"
 
 #: .\templates\base.html:178
 msgid ""
 "Salary bot gives information about workers salary depending on choosing month"
-msgstr ""
+msgstr "Ish haqi bot tanlash oy qarab ishchilar ish haqi haqida ma'lumot beradi"
 
 #: .\templates\base.html:194
 msgid "Our Services"
-msgstr ""
+msgstr "Bizning Xizmatlar"
 
 #: .\templates\base.html:205
 msgid "Financial analysis"
-msgstr ""
+msgstr "Moliyaviy tahlil"
 
 #: .\templates\base.html:207
 msgid ""
 "Financial analysis is the process of examining a company's performance in "
 "the context of its industry and economic environment in order to arrive at a "
 "decision or recommendation."
-msgstr ""
+msgstr "Moliyaviy tahlil-bu qaror yoki tavsiyanomaga erishish uchun kompaniyaning sanoat va iqtisodiy muhit sharoitida faoliyatini o'rganish jarayoni."
 
 #: .\templates\base.html:219
 msgid "Budgeting"
-msgstr ""
+msgstr "Byudjetlashtirish"
 
 #: .\templates\base.html:221
 msgid ""
 "Financial budgeting is the process of planning company expenses and revenues "
 "for a time period. Budgets set forth the plans of management in financial "
 "terms."
-msgstr ""
+msgstr "Moliyaviy byudjetlashtirish-bu kompaniyaning xarajatlari va daromadlarini ma'lum muddatga rejalashtirish jarayoni. Byudjetlar menejment rejalarini moliyaviy jihatdan belgilaydi."
 
 #: .\templates\base.html:233
 msgid "Building a financial modal"
-msgstr ""
+msgstr "Moliyaviy modelni yaratish"
 
 #: .\templates\base.html:235
 msgid ""
@@ -234,51 +234,51 @@ msgid ""
 "It is used to forecast the business' financial performance, provide "
 "direction, and give context to uncertainty, and creating one of these models "
 "is financial modeling."
-msgstr ""
+msgstr "Moliyaviy model-bu kompaniyaning qanday ishlashini matematik tasvirlash. U biznesning moliyaviy ko'rsatkichlarini prognoz qilish, yo'nalish berish va noaniqlikka kontekst berish uchun ishlatiladi va ushbu modellardan birini yaratish moliyaviy modellashtirishdir."
 
 #: .\templates\base.html:247
 msgid "Financial Investment"
-msgstr ""
+msgstr "Moliyaviy Investitsiyalar"
 
 #: .\templates\base.html:249
 msgid ""
 "A financial investment is an asset that you put money into with the hope "
 "that it will grow or appreciate into a larger sum of money."
-msgstr ""
+msgstr "Moliyaviy investitsiya-bu pulni katta miqdordagi pulga aylantirish yoki qadrlashiga umid qilib qo'ygan aktiv."
 
 #: .\templates\base.html:263
 msgid "ERP system"
-msgstr ""
+msgstr "ERP tizimi"
 
 #: .\templates\base.html:265
 msgid ""
 "Enterprise resource planning (ERP) is a platform companies use to manage and "
 "integrate the essential parts of their businesses."
-msgstr ""
+msgstr "Korxona resurslarini rejalashtirish (ERP) - bu kompaniyalar o'z bizneslarining muhim qismlarini boshqarish va birlashtirish uchun foydalanadigan platforma."
 
 #: .\templates\base.html:278
 msgid "CRM system"
-msgstr ""
+msgstr "CRM tizimi"
 
 #: .\templates\base.html:280
 msgid ""
 "A CRM system helps businesses organize and centralize their information on "
 "customers, allowing for easier access and customer support."
-msgstr ""
+msgstr "CRM tizimi korxonalarga mijozlar haqidagi ma'lumotlarni tashkil qilish va markazlashtirishga yordam beradi, bu esa oson kirish va mijozlarni qo'llab-quvvatlash imkonini beradi."
 
 #: .\templates\base.html:293
 msgid "Website development"
-msgstr ""
+msgstr "Veb-sayt yaratish"
 
 #: .\templates\base.html:295
 msgid ""
 "Web development is the process of building, programming, and maintaining "
 "websites and web applications."
-msgstr ""
+msgstr "Veb-ishlab chiqish-bu veb-saytlar va veb-ilovalarni yaratish, dasturlash va saqlash jarayoni."
 
 #: .\templates\base.html:308
 msgid "Telegram bots"
-msgstr ""
+msgstr "Telegram botlari"
 
 #: .\templates\base.html:310
 msgid ""
@@ -288,7 +288,7 @@ msgstr ""
 
 #: .\templates\base.html:324
 msgid "Happy Customers"
-msgstr ""
+msgstr "Baxtli Mijozlar"
 
 #: .\templates\base.html:333
 msgid ""
@@ -296,7 +296,7 @@ msgid ""
 "service! Your innovative technologies have revolutionized our financial "
 "processes, making them more efficient and effective. We appreciate your "
 "dedication to our success. Here's to continued partnership and growth!&rdquo;"
-msgstr ""
+msgstr "&ldquo; Rahmat, Smart FinTech Solution Group, sizning maxsus xizmat uchun! Sizning innovatsion texnologiyalaringiz moliyaviy jarayonlarimizni inqilob qilib, ularni yanada samarali va samarali qildi. Muvaffaqiyatimizga bag'ishlanganingizni qadrlaymiz. Bu erda davom hamkorlik va o'sish bo'ldi!& rdquo;"
 
 #: .\templates\base.html:347
 msgid ""
@@ -304,7 +304,7 @@ msgid ""
 "service! Your innovative technologies have transformed our financial "
 "processes, making them more efficient and effective. We're grateful for your "
 "expertise and dedication to our success. .&rdquo;"
-msgstr ""
+msgstr "&ldquo; Hurmatli Smart FinTech Solution Group, sizning mashhur xizmat uchun rahmat! Sizning innovatsion texnologiyalaringiz bizning moliyaviy jarayonlarimizni o'zgartirib, ularni yanada samarali va samarali qildi. Sizning tajribangiz va muvaffaqiyatimizga bag'ishlanganingiz uchun minnatdormiz. .& rdquo;"
 
 #: .\templates\base.html:362
 msgid ""
@@ -312,7 +312,7 @@ msgid ""
 "gratitude for your excellent service! Your innovative technologies have "
 "streamlined our financial operations, leading to increased efficiency and "
 "productivity. Thank you for your dedication to our success. &rdquo;"
-msgstr ""
+msgstr "&ldquo; Smart FinTech Solution Group, biz sizning ajoyib xizmat uchun samimiy minnatdorlik izhor etmoqchiman! Sizning innovatsion texnologiyalaringiz bizning moliyaviy operatsiyalarimizni soddalashtirdi, bu esa samaradorlik va samaradorlikni oshirishga olib keldi. Muvaffaqiyatimizga bag'ishlanganingiz uchun tashakkur. & rdquo;"
 
 #: .\templates\base.html:378
 msgid ""
@@ -320,74 +320,74 @@ msgid ""
 "made a significant impact on our financial processes! Your innovative "
 "technologies have revolutionized the way we work, making us more efficient "
 "and effective. We appreciate your commitment to our success.&rdquo;"
-msgstr ""
+msgstr "&ldquo; rahmat, Smart FinTech Solution Group, sizning xizmatlaringiz moliyaviy jarayonlar haqida muhim ta'sir qildi! Sizning innovatsion texnologiyalaringiz bizning ish uslubimizda inqilob qilib, bizni yanada samarali va samarali qildi. Muvaffaqiyatimizga sodiqligingizni qadrlaymiz.& rdquo;"
 
 #: .\templates\base.html:397
 msgid "Frequently Ask Questions"
-msgstr ""
+msgstr "Tez-Tez Beriladigan savollar"
 
 #: .\templates\base.html:404
 msgid "What services does Smart FinTech Solution Group offer?"
-msgstr ""
+msgstr "Smart FinTech Solution Group qanday xizmatlarni taklif qiladi?"
 
 #: .\templates\base.html:405
 msgid ""
 "Smart FinTech Solution Group specializes in automation of business "
 "processes, financial analysis, budgeting, and building financial models."
-msgstr ""
+msgstr "Smart FinTech Solution Group biznes jarayonlarini avtomatlashtirish, moliyaviy tahlil, byudjetlashtirish va moliyaviy modellarni yaratishga ixtisoslashgan."
 
 #: .\templates\base.html:409
 msgid "What industries does Smart FinTech Solution Group serve?"
-msgstr ""
+msgstr "Smart FinTech Solution Group qaysi sohalarga xizmat qiladi?"
 
 #: .\templates\base.html:410
 msgid ""
 "We serve clients across diverse industries, including banking and finance, "
 "manufacturing, retail, healthcare, and technology."
-msgstr ""
+msgstr "Biz turli sohalarda mijozlarga xizmat, bank va moliya, shu jumladan,, ishlab chiqarish, chakana savdo, sog'liqni saqlash, va texnologiya."
 
 #: .\templates\base.html:414
 msgid ""
 "Can Smart FinTech Solution Group customize its services to meet specific "
 "client needs?"
-msgstr ""
+msgstr "Smart FinTech Solution Group o'z xizmatlarini mijozlarning muayyan ehtiyojlarini qondirish uchun sozlay oladimi?"
 
 #: .\templates\base.html:415
 msgid ""
 "Yes, we tailor our solutions to meet the unique requirements of each client, "
 "ensuring that our services align with their business objectives and "
 "challenges."
-msgstr ""
+msgstr "Ha, biz o'z echimlarimizni har bir mijozning o'ziga xos talablarini qondirish uchun moslashtiramiz va xizmatlarimiz ularning biznes maqsadlari va muammolariga mos kelishini ta'minlaymiz."
 
 #: .\templates\base.html:419
 msgid "How experienced is the team at Smart FinTech Solution Group?"
-msgstr ""
+msgstr "Smart FinTech Solution Group jamoasi qanchalik tajribali?"
 
 #: .\templates\base.html:420
 msgid ""
 "Our team comprises seasoned professionals with extensive experience in "
 "finance, technology, and business consulting, ensuring the highest standards "
 "of service excellence and client satisfaction."
-msgstr ""
+msgstr "Bizning jamoamiz moliya, texnologiya va biznes konsalting sohasida katta tajribaga ega bo'lgan tajribali mutaxassislardan iborat bo'lib, xizmat ko'rsatishning eng yuqori standartlarini va mijozlar ehtiyojini qondirishni ta'minlaydi."
 
 #: .\templates\base.html:426
 msgid ""
 "What benefits can clients expect from working with Smart FinTech Solution "
 "Group?"
-msgstr ""
+msgstr "Mijozlar Smart FinTech Solution Group bilan ishlashdan qanday foyda kutishlari mumkin?"
 
 #: .\templates\base.html:427
 msgid ""
 "Clients can expect benefits such as enhanced efficiency, insightful "
 "analysis, effective budgeting, and robust financial models, empowering them "
 "to make informed decisions and drive growth."
-msgstr ""
+msgstr "Mijozlar yaxshilangan samaradorlik, chuqur tahlil, samarali byudjetlashtirish va mustahkam moliyaviy modellar kabi imtiyozlarni kutishlari mumkin, bu ularga ongli qarorlar qabul qilish va o'sishni ta'minlash imkoniyatini beradi."
 
 #: .\templates\base.html:431
 msgid ""
 "Can Smart FinTech Solution Group integrate with existing systems and "
 "software?"
-msgstr ""
+msgstr "Smart FinTech Solution Group mavjud tizimlar va dasturiy ta'minot bilan birlashishi mumkinmi?"
 
 #: .\templates\base.html:432
 msgid ""
@@ -395,13 +395,13 @@ msgid ""
 "systems and software. Our solutions are designed to be flexible and "
 "compatible, allowing for smooth integration with a wide range of platforms "
 "and applications."
-msgstr ""
+msgstr "Ha, biz mavjud tizimlar va dasturiy ta'minot bilan uzluksiz integratsiya muhimligini tushunamiz. Bizning yechimlarimiz moslashuvchan va mos bo'lishi uchun yaratilgan bo'lib, keng platformalar va ilovalar bilan uzluksiz integratsiya qilish imkonini beradi."
 
 #: .\templates\base.html:436
 msgid ""
 "How does Smart FinTech Solution Group ensure data security and "
 "confidentiality?"
-msgstr ""
+msgstr "Smart FinTech Solution Group ma'lumotlar xavfsizligi va maxfiyligini qanday ta'minlaydi?"
 
 #: .\templates\base.html:437
 msgid ""
@@ -409,23 +409,23 @@ msgid ""
 "industry-leading security standards and protocols to safeguard sensitive "
 "information. We implement robust encryption measures, access controls, and "
 "regular security audits to mitigate risks and protect client data."
-msgstr ""
+msgstr "Biz ma'lumotlar xavfsizligi va maxfiyligini jiddiy qabul qilamiz. Bizning echimlarimiz nozik ma'lumotlarni himoya qilish uchun sanoatning etakchi xavfsizlik standartlari va protokollariga amal qiladi. Biz xavflarni kamaytirish va mijoz ma'lumotlarini himoya qilish uchun mustahkam shifrlash choralarini, kirishni boshqarish va muntazam xavfsizlik tekshiruvlarini amalga oshiramiz."
 
 #: .\templates\base.html:454 .\templates\base.html:555
 msgid "Contact Us"
-msgstr ""
+msgstr "Aloqa"
 
 #: .\templates\base.html:463
 msgid "123 Main Street, Mirzo Ulugbek District Tashkent, Uzbekistan"
-msgstr ""
+msgstr "Toshkent Shahri, Mirzo Ulug'bek Tumani, 123-Uy"
 
 #: .\templates\base.html:517
 msgid "Information"
-msgstr ""
+msgstr "Axborot"
 
 #: .\templates\base.html:524
 msgid "Send Message"
-msgstr ""
+msgstr "Xabar Yuborish"
 
 #: .\templates\base.html:544
 msgid ""
@@ -434,27 +434,27 @@ msgid ""
 "Our team of seasoned professionals brings together expertise in finance, "
 "technology, and business consulting to deliver solutions that drive tangible "
 "results and create lasting value."
-msgstr ""
+msgstr "Smart FinTech Solution Group-da biz moliyaviy jarayonlarni o'zgartirish va mijozlarimiz uchun yangi imkoniyatlarni ochish texnologiyasining kuchiga ishonamiz. Tajribali mutaxassislarimiz jamoasi moliya, texnologiya va biznes-konsalting sohasidagi tajribani birlashtiradi natijalar va doimiy qiymat yaratish."
 
 #: .\templates\base.html:547
 msgid "Quick Links"
-msgstr ""
+msgstr "Tez Havolalar"
 
 #: .\templates\base.html:549
 msgid "Terms"
-msgstr ""
+msgstr "Shartlar"
 
 #: .\templates\base.html:550
 msgid "Policy"
-msgstr ""
+msgstr "Siyosat"
 
 #: .\templates\base.html:559
 msgid "Follow Us"
-msgstr ""
+msgstr "Bizni Kuzatib Boring"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
 msgid "Messages"
-msgstr ""
+msgstr "Xabarlar"
 
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
 msgid "Site Maps"
