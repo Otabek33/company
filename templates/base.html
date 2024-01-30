@@ -487,11 +487,11 @@
 
                         <div class="row form-group">
                             <div class="col-md-6 mb-3 mb-md-0">
-                                <label class="text-black" for="fname">First Name</label>
+                                <label class="text-black" for="fname">{% trans 'First name' %}</label>
                                 {{ form.first_name }}
                             </div>
                             <div class="col-md-6">
-                                <label class="text-black" for="lname">Last Name</label>
+                                <label class="text-black" for="lname">{% trans 'Last name' %}</label>
                                 {{ form.last_name }}
                             </div>
                         </div>
@@ -499,7 +499,7 @@
                         <div class="row form-group">
 
                             <div class="col-md-12">
-                                <label class="text-black" for="email">Email</label>
+                                <label class="text-black" for="email">{% trans 'Email' %}</label>
                                 {{ form.email }}
                             </div>
                         </div>
@@ -507,21 +507,21 @@
                         <div class="row form-group">
 
                             <div class="col-md-12">
-                                <label class="text-black" for="subject">Subject</label>
+                                <label class="text-black" for="subject">{% trans 'Subject' %}</label>
                                 {{ form.subject }}
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <label class="text-black" for="message">Message</label>
+                                <label class="text-black" for="message">{% trans 'Information' %}</label>
                                 {{ form.message }}
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
-                                <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                                <input type="submit" value="{% trans 'Send Message' %}" class="btn btn-primary btn-md text-white">
                             </div>
                         </div>
 

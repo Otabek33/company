@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 11:53+0500\n"
+"POT-Creation-Date: 2024-01-30 10:21+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,20 +18,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .\base\models.py:8
+#: .\base\models.py:8 .\templates\base.html:490
 msgid "First name"
 msgstr ""
 
-#: .\base\models.py:9
+#: .\base\models.py:9 .\templates\base.html:494
 msgid "Last name"
 msgstr ""
 
-#: .\base\models.py:10
+#: .\base\models.py:10 .\templates\base.html:502
 msgid "Email"
 msgstr ""
 
-#: .\base\models.py:11 .\base\models.py:12
+#: .\base\models.py:11 .\templates\base.html:510
 msgid "Subject"
+msgstr ""
+
+#: .\base\models.py:12
+msgid "Message"
 msgstr ""
 
 #: .\base\models.py:13
@@ -88,7 +92,11 @@ msgid ""
 "to automated systems, which allows you to free up resources, respond to "
 "market changes in a timely manner, make quick decisions and plan further "
 "actions of the company."
-msgstr "Bu xodimlarning muntazam vazifalariga echimlarni avtomatlashtirilgan tizimlarga o'tkazish jarayoni bo'lib, bu sizga resurslarni bo'shatish, bozor o'zgarishlariga o'z vaqtida javob berish, tezkor qarorlar qabul qilish va kompaniyaning keyingi harakatlarini rejalashtirish imkonini beradi."
+msgstr ""
+"Bu xodimlarning muntazam vazifalariga echimlarni avtomatlashtirilgan "
+"tizimlarga o'tkazish jarayoni bo'lib, bu sizga resurslarni bo'shatish, bozor "
+"o'zgarishlariga o'z vaqtida javob berish, tezkor qarorlar qabul qilish va "
+"kompaniyaning keyingi harakatlarini rejalashtirish imkonini beradi."
 
 #: .\templates\base.html:76
 msgid "FINANCIAL ANALYSIS"
@@ -409,6 +417,14 @@ msgstr ""
 
 #: .\templates\base.html:463
 msgid "123 Main Street, Mirzo Ulugbek District Tashkent, Uzbekistan"
+msgstr ""
+
+#: .\templates\base.html:517
+msgid "Information"
+msgstr ""
+
+#: .\templates\base.html:524
+msgid "Send Message"
 msgstr ""
 
 #: .\templates\base.html:544

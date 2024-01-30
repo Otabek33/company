@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 11:53+0500\n"
+"POT-Creation-Date: 2024-01-30 10:21+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,21 +20,25 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\base\models.py:8
+#: .\base\models.py:8 .\templates\base.html:490
 msgid "First name"
 msgstr "Имя"
 
-#: .\base\models.py:9
+#: .\base\models.py:9 .\templates\base.html:494
 msgid "Last name"
 msgstr "Фамилия"
 
-#: .\base\models.py:10
+#: .\base\models.py:10 .\templates\base.html:502
 msgid "Email"
 msgstr "Электронная почта"
 
-#: .\base\models.py:11 .\base\models.py:12
+#: .\base\models.py:11 .\templates\base.html:510
 msgid "Subject"
 msgstr "Предмет"
+
+#: .\base\models.py:12
+msgid "Message"
+msgstr "Сообщения"
 
 #: .\base\models.py:13
 #, fuzzy
@@ -94,7 +98,11 @@ msgid ""
 "to automated systems, which allows you to free up resources, respond to "
 "market changes in a timely manner, make quick decisions and plan further "
 "actions of the company."
-msgstr "Это процесс передачи решений рутинных задач сотрудников в автоматизированные системы, который позволяет высвободить ресурсы, своевременно реагировать на изменения рынка, быстро принимать решения и планировать дальнейшие действия компании."
+msgstr ""
+"Это процесс передачи решений рутинных задач сотрудников в автоматизированные "
+"системы, который позволяет высвободить ресурсы, своевременно реагировать на "
+"изменения рынка, быстро принимать решения и планировать дальнейшие действия "
+"компании."
 
 #: .\templates\base.html:76
 msgid "FINANCIAL ANALYSIS"
@@ -104,7 +112,9 @@ msgstr "ФИНАНСОВЫЙ АНАЛИЗ"
 msgid ""
 "Analysis of the main financial indicators of the company's activities: "
 "liquidity, asset turnover, profitability, market value."
-msgstr "Анализ основных финансовых показателей деятельности компании: ликвидности, оборачиваемости активов, рентабельности, рыночной стоимости."
+msgstr ""
+"Анализ основных финансовых показателей деятельности компании: ликвидности, "
+"оборачиваемости активов, рентабельности, рыночной стоимости."
 
 #: .\templates\base.html:84
 msgid "BUDGETING"
@@ -114,7 +124,9 @@ msgstr "СОСТАВЛЕНИЕ БЮДЖЕТА"
 msgid ""
 "Budgeting is the process of drafting, executing, monitoring and analyzing "
 "the execution of budgets of  organizations."
-msgstr "Бюджетирование - это процесс составления, исполнения, мониторинга и анализа исполнения бюджетов организаций."
+msgstr ""
+"Бюджетирование - это процесс составления, исполнения, мониторинга и анализа "
+"исполнения бюджетов организаций."
 
 #: .\templates\base.html:90
 msgid "BUILDING A FINANCIAL MODEL"
@@ -124,22 +136,27 @@ msgstr "ПОСТРОЕНИЕ ФИНАНСОВОЙ МОДЕЛИ"
 msgid ""
 "This is a set of characteristics that reflect the current state of affairs "
 "and become the basis for forecasts for the future."
-msgstr "Это набор характеристик, которые отражают текущее положение дел и становятся основой для прогнозов на будущее."
+msgstr ""
+"Это набор характеристик, которые отражают текущее положение дел и становятся "
+"основой для прогнозов на будущее."
 
 #: .\templates\base.html:114 .\templates\base.html:543
 #: .\templates\base.html:551
 msgid "About Us"
-msgstr ""
+msgstr "О нас"
 
 #: .\templates\base.html:116
 msgid ""
 "At Smart FinTech Solution Group, we specialize in harnessing the power of "
 "modern technologies to solve your financial problems effectively."
 msgstr ""
+"В Smart FinTech Solution Group мы специализируемся на использовании "
+"возможностей современных технологий для эффективного решения ваших "
+"финансовых проблем."
 
 #: .\templates\base.html:128
 msgid "We Solve Your Financial Problem"
-msgstr ""
+msgstr "Мы решим Вашу финансовую проблему"
 
 #: .\templates\base.html:130
 msgid ""
@@ -147,6 +164,9 @@ msgid ""
 "technology solutions, empowering businesses to streamline their operations, "
 "optimize financial performance, and  drive growth."
 msgstr ""
+"Smart FinTech Solution Group является ведущим поставщиком инновационных "
+"финансовых технологических решений, позволяющих компаниям оптимизировать "
+"свою деятельность, оптимизировать финансовые показатели и стимулировать рост."
 
 #: .\templates\base.html:132
 msgid ""
@@ -154,10 +174,14 @@ msgid ""
 "budgeting, and building robust financial models, we deliver tailored "
 "solutions to meet the unique needs of our clients across various industries."
 msgstr ""
+"Уделяя особое внимание автоматизации бизнес-процессов, финансовому анализу, "
+"составлению бюджета и построению надежных финансовых моделей, мы предлагаем "
+"индивидуальные решения для удовлетворения уникальных потребностей наших "
+"клиентов в различных отраслях."
 
 #: .\templates\base.html:144
 msgid "Our works"
-msgstr ""
+msgstr "Наши работы"
 
 #: .\templates\base.html:146
 msgid ""
@@ -166,43 +190,53 @@ msgid ""
 "focuses on automation of business processes, financial analysis, budgeting, "
 "and building financial models."
 msgstr ""
+"Smart FinTech Solution Group специализируется на предоставлении "
+"инновационных финансовых технологических решений предприятиям в различных "
+"отраслях. Их работа сосредоточена на автоматизации бизнес-процессов, "
+"финансовом анализе, составлении бюджета и построении финансовых моделей."
 
 #: .\templates\base.html:168
 msgid "01. Warehouse control system"
-msgstr ""
+msgstr "01. Система управления складом"
 
 #: .\templates\base.html:169
 msgid ""
 "A WCS coordinates the movements of materials throughout the warehouse to "
 "ensure an efficient and smooth workflow from receiving to shipping"
 msgstr ""
+"WCS координирует перемещение материалов по всему складу, обеспечивая "
+"эффективный и бесперебойный рабочий процесс от получения до отгрузки"
 
 #: .\templates\base.html:173
 msgid "02. Track monitoring system"
-msgstr ""
+msgstr "02. Система мониторинга трека"
 
 #: .\templates\base.html:174
 msgid ""
 "Track monitoring systems offer continuous operation and automated "
 "processing, alerts, data visualization, and reports."
 msgstr ""
+"Системы мониторинга треков обеспечивают непрерывную работу и "
+"автоматизированную обработку, оповещения, визуализацию данных и отчеты."
 
 #: .\templates\base.html:177
 msgid "03. Salary bot"
-msgstr ""
+msgstr "03. Зарплатный бот"
 
 #: .\templates\base.html:178
 msgid ""
 "Salary bot gives information about workers salary depending on choosing month"
 msgstr ""
+"Зарплатный бот предоставляет информацию о заработной плате работников в "
+"зависимости от выбранного месяца"
 
 #: .\templates\base.html:194
 msgid "Our Services"
-msgstr ""
+msgstr "Наши услуги"
 
 #: .\templates\base.html:205
 msgid "Financial analysis"
-msgstr ""
+msgstr "Финансовый анализ"
 
 #: .\templates\base.html:207
 msgid ""
@@ -210,10 +244,13 @@ msgid ""
 "the context of its industry and economic environment in order to arrive at a "
 "decision or recommendation."
 msgstr ""
+"Финансовый анализ - это процесс изучения результатов деятельности компании в "
+"контексте ее отрасли и экономической среды с целью принятия решения или "
+"рекомендации."
 
 #: .\templates\base.html:219
 msgid "Budgeting"
-msgstr ""
+msgstr "Составление бюджета"
 
 #: .\templates\base.html:221
 msgid ""
@@ -221,10 +258,13 @@ msgid ""
 "for a time period. Budgets set forth the plans of management in financial "
 "terms."
 msgstr ""
+"Финансовое бюджетирование - это процесс планирования расходов и доходов "
+"компании на определенный период времени. Бюджеты излагают планы руководства "
+"в финансовых терминах."
 
 #: .\templates\base.html:233
 msgid "Building a financial modal"
-msgstr ""
+msgstr "Построение финансовой модели"
 
 #: .\templates\base.html:235
 msgid ""
@@ -233,50 +273,62 @@ msgid ""
 "direction, and give context to uncertainty, and creating one of these models "
 "is financial modeling."
 msgstr ""
+"Финансовая модель - это математическое представление того, как работает "
+"компания. Она используется для прогнозирования финансовых показателей "
+"бизнеса, определения направления и контекста неопределенности, и создание "
+"одной из таких моделей и есть финансовое моделирование."
 
 #: .\templates\base.html:247
 msgid "Financial Investment"
-msgstr ""
+msgstr "Финансовые инвестиции"
 
 #: .\templates\base.html:249
 msgid ""
 "A financial investment is an asset that you put money into with the hope "
 "that it will grow or appreciate into a larger sum of money."
 msgstr ""
+"Финансовая инвестиция - это актив, в который вы вкладываете деньги в "
+"надежде, что он вырастет или оценится в большую сумму денег."
 
 #: .\templates\base.html:263
 msgid "ERP system"
-msgstr ""
+msgstr "ERP-система"
 
 #: .\templates\base.html:265
 msgid ""
 "Enterprise resource planning (ERP) is a platform companies use to manage and "
 "integrate the essential parts of their businesses."
 msgstr ""
+"Планирование ресурсов предприятия (ERP) - это платформа, которую компании "
+"используют для управления и интеграции основных компонентов своего бизнеса."
 
 #: .\templates\base.html:278
 msgid "CRM system"
-msgstr ""
+msgstr "CRM-система"
 
 #: .\templates\base.html:280
 msgid ""
 "A CRM system helps businesses organize and centralize their information on "
 "customers, allowing for easier access and customer support."
 msgstr ""
+"CRM-система помогает предприятиям систематизировать и централизовать "
+"информацию о клиентах, обеспечивая более легкий доступ и поддержку клиентов."
 
 #: .\templates\base.html:293
 msgid "Website development"
-msgstr ""
+msgstr "Разработка веб-сайта"
 
 #: .\templates\base.html:295
 msgid ""
 "Web development is the process of building, programming, and maintaining "
 "websites and web applications."
 msgstr ""
+"Веб-разработка - это процесс создания, программирования и сопровождения веб-"
+"сайтов и веб-приложений."
 
 #: .\templates\base.html:308
 msgid "Telegram bots"
-msgstr ""
+msgstr "Телеграм-боты"
 
 #: .\templates\base.html:310
 msgid ""
@@ -286,7 +338,7 @@ msgstr ""
 
 #: .\templates\base.html:324
 msgid "Happy Customers"
-msgstr ""
+msgstr "Довольные клиенты"
 
 #: .\templates\base.html:333
 msgid ""
@@ -295,6 +347,10 @@ msgid ""
 "processes, making them more efficient and effective. We appreciate your "
 "dedication to our success. Here's to continued partnership and growth!&rdquo;"
 msgstr ""
+"&ldquo;Спасибо вам, Smart FinTech Solution Group, за ваш исключительный "
+"сервис! Ваши инновационные технологии произвели революцию в наших финансовых "
+"процессах, сделав их более эффективными. Мы ценим вашу приверженность нашему "
+"успеху. За продолжение партнерства и рост!&rdquo;"
 
 #: .\templates\base.html:347
 msgid ""
@@ -303,6 +359,10 @@ msgid ""
 "processes, making them more efficient and effective. We're grateful for your "
 "expertise and dedication to our success. .&rdquo;"
 msgstr ""
+"&&ldquo;Уважаемая Smart FinTech Solution Group, благодарим вас за ваш "
+"выдающийся сервис! Ваши инновационные технологии преобразовали наши "
+"финансовые процессы, сделав их более эффективными. Мы благодарны вам за ваш "
+"опыт и преданность нашему успеху. .&rdquo;"
 
 #: .\templates\base.html:362
 msgid ""
@@ -311,6 +371,10 @@ msgid ""
 "streamlined our financial operations, leading to increased efficiency and "
 "productivity. Thank you for your dedication to our success. &rdquo;"
 msgstr ""
+"&ldquo;Smart FinTech Solution Group, мы хотим выразить нашу искреннюю "
+"благодарность за ваш превосходный сервис! Ваши инновационные технологии "
+"упростили наши финансовые операции, что привело к повышению эффективности и "
+"продуктивности. Спасибо вам за вашу приверженность нашему успеху. &rdquo;"
 
 #: .\templates\base.html:378
 msgid ""
@@ -319,36 +383,47 @@ msgid ""
 "technologies have revolutionized the way we work, making us more efficient "
 "and effective. We appreciate your commitment to our success.&rdquo;"
 msgstr ""
+"&ldquo;Спасибо вам, Smart FinTech Solution Group, Ваш исключительный сервис "
+"оказал значительное влияние на наши финансовые процессы! Ваши инновационные "
+"технологии произвели революцию в нашей работе, сделав нас более "
+"эффективными. Мы ценим вашу приверженность нашему успеху.&rdquo;"
 
 #: .\templates\base.html:397
 msgid "Frequently Ask Questions"
-msgstr ""
+msgstr "Часто задаваемые вопросы"
 
 #: .\templates\base.html:404
 msgid "What services does Smart FinTech Solution Group offer?"
-msgstr ""
+msgstr "Какие услуги предлагает Smart FinTech Solution Group?"
 
 #: .\templates\base.html:405
 msgid ""
 "Smart FinTech Solution Group specializes in automation of business "
 "processes, financial analysis, budgeting, and building financial models."
 msgstr ""
+"Smart FinTech Solution Group специализируется на автоматизации бизнес-"
+"процессов, финансовом анализе, составлении бюджета и построении финансовых "
+"моделей."
 
 #: .\templates\base.html:409
 msgid "What industries does Smart FinTech Solution Group serve?"
-msgstr ""
+msgstr "Какие отрасли обслуживает Smart FinTech Solution Group?"
 
 #: .\templates\base.html:410
 msgid ""
 "We serve clients across diverse industries, including banking and finance, "
 "manufacturing, retail, healthcare, and technology."
 msgstr ""
+"Мы обслуживаем клиентов из различных отраслей, включая банковское дело и "
+"финансы, производство, розничную торговлю, здравоохранение и технологии."
 
 #: .\templates\base.html:414
 msgid ""
 "Can Smart FinTech Solution Group customize its services to meet specific "
 "client needs?"
 msgstr ""
+"Может ли Smart FinTech Solution Group адаптировать свои услуги к конкретным "
+"потребностям клиентов?"
 
 #: .\templates\base.html:415
 msgid ""
@@ -356,10 +431,13 @@ msgid ""
 "ensuring that our services align with their business objectives and "
 "challenges."
 msgstr ""
+"Да, мы адаптируем наши решения в соответствии с уникальными требованиями "
+"каждого клиента, гарантируя, что наши услуги соответствуют его бизнес-целям "
+"и задачам."
 
 #: .\templates\base.html:419
 msgid "How experienced is the team at Smart FinTech Solution Group?"
-msgstr ""
+msgstr "Насколько опытна команда Smart FinTech Solution Group?"
 
 #: .\templates\base.html:420
 msgid ""
@@ -367,12 +445,17 @@ msgid ""
 "finance, technology, and business consulting, ensuring the highest standards "
 "of service excellence and client satisfaction."
 msgstr ""
+"Наша команда состоит из опытных профессионалов с большим опытом работы в "
+"области финансов, технологий и бизнес-консалтинга, обеспечивающих высочайшие "
+"стандарты качества обслуживания и удовлетворенности клиентов."
 
 #: .\templates\base.html:426
 msgid ""
 "What benefits can clients expect from working with Smart FinTech Solution "
 "Group?"
 msgstr ""
+"Каких преимуществ могут ожидать клиенты от работы с Smart FinTech Solution "
+"Group?"
 
 #: .\templates\base.html:427
 msgid ""
@@ -380,12 +463,18 @@ msgid ""
 "analysis, effective budgeting, and robust financial models, empowering them "
 "to make informed decisions and drive growth."
 msgstr ""
+"Клиенты могут рассчитывать на такие преимущества, как повышенная "
+"эффективность, глубокий анализ, эффективное составление бюджета и надежные "
+"финансовые модели, позволяющие им принимать обоснованные решения и "
+"стимулировать рост."
 
 #: .\templates\base.html:431
 msgid ""
 "Can Smart FinTech Solution Group integrate with existing systems and "
 "software?"
 msgstr ""
+"Может ли Smart FinTech Solution Group интегрироваться с существующими "
+"системами и программным обеспечением?"
 
 #: .\templates\base.html:432
 msgid ""
@@ -394,12 +483,18 @@ msgid ""
 "compatible, allowing for smooth integration with a wide range of platforms "
 "and applications."
 msgstr ""
+"Да, мы понимаем важность плавной интеграции с существующими системами и "
+"программным обеспечением. Наши решения разработаны таким образом, чтобы быть "
+"гибкими и совместимыми, обеспечивая плавную интеграцию с широким спектром "
+"платформ и приложений."
 
 #: .\templates\base.html:436
 msgid ""
 "How does Smart FinTech Solution Group ensure data security and "
 "confidentiality?"
 msgstr ""
+"Как Smart FinTech Solution Group обеспечивает безопасность и "
+"конфиденциальность данных?"
 
 #: .\templates\base.html:437
 msgid ""
@@ -408,14 +503,27 @@ msgid ""
 "information. We implement robust encryption measures, access controls, and "
 "regular security audits to mitigate risks and protect client data."
 msgstr ""
+"Мы серьезно относимся к безопасности и конфиденциальности данных. Наши "
+"решения соответствуют ведущим отраслевым стандартам безопасности и "
+"протоколам для защиты конфиденциальной информации. Мы применяем надежные "
+"меры шифрования, контроля доступа и регулярные аудиты безопасности для "
+"снижения рисков и защиты клиентских данных."
 
 #: .\templates\base.html:454 .\templates\base.html:555
 msgid "Contact Us"
-msgstr ""
+msgstr "Связаться с нами"
 
 #: .\templates\base.html:463
 msgid "123 Main Street, Mirzo Ulugbek District Tashkent, Uzbekistan"
-msgstr ""
+msgstr "Ташкент, Узбекистан, Мирзо Улугбекский район, Главная улица, 123"
+
+#: .\templates\base.html:517
+msgid "Information"
+msgstr "Сообщение"
+
+#: .\templates\base.html:524
+msgid "Send Message"
+msgstr "Отправить сообщение"
 
 #: .\templates\base.html:544
 msgid ""
@@ -425,26 +533,33 @@ msgid ""
 "technology, and business consulting to deliver solutions that drive tangible "
 "results and create lasting value."
 msgstr ""
+"В Smart FinTech Solution Group мы верим в силу технологий для преобразования "
+"финансовых процессов и открытия новых возможностей для наших клиентов. Наша "
+"команда опытных профессионалов объединяет опыт в области финансов, "
+"технологий и бизнес-консалтинга для предоставления решений, которые приводят "
+"к ощутимым результатам и создают долгосрочную ценность."
 
 #: .\templates\base.html:547
 msgid "Quick Links"
-msgstr ""
+msgstr "Быстрые ссылки"
 
 #: .\templates\base.html:549
 msgid "Terms"
-msgstr ""
+msgstr "Условия"
 
 #: .\templates\base.html:550
 msgid "Policy"
-msgstr ""
+msgstr "Политика"
 
 #: .\templates\base.html:559
 msgid "Follow Us"
-msgstr ""
+msgstr "Следуйте за нами"
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
+#, fuzzy
+#| msgid "Message"
 msgid "Messages"
-msgstr ""
+msgstr "Сообщения"
 
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
 msgid "Site Maps"
