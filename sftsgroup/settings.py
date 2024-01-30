@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import os
-import django
+import django.conf.locale
 from pathlib import Path
 from django.conf import global_settings
 from django.utils.translation import gettext_lazy as _
@@ -117,7 +117,7 @@ EXTRA_LANG_INFO = {
     },
 }
 
-LANGUAGE_CODE = "en"
+LANGUAGE_CODE = 'en'
 
 LANG_INFO = dict(django.conf.locale.LANG_INFO, **EXTRA_LANG_INFO)
 django.conf.locale.LANG_INFO = LANG_INFO
@@ -126,9 +126,16 @@ global_settings.LANGUAGES = global_settings.LANGUAGES + [("uz", "Uzbek")]
 
 TIME_ZONE = "Asia/Tashkent"
 
+# https://docs.djangoproject.com/en/dev/ref/settings/#site-id
+SITE_ID = 1
+# https://docs.djangoproject.com/en/dev/ref/settings/#use-i18n
 USE_I18N = True
-
+# https://docs.djangoproject.com/en/dev/ref/settings/#use-l10n
+USE_L10N = True
+# https://docs.djangoproject.com/en/dev/ref/settings/#use-tz
 USE_TZ = True
+# https://docs.djangoproject.com/en/dev/ref/settings/#locale-paths
+LOCALE_PATHS = [str(BASE_DIR / "locale")]
 
 # STATIC
 # ------------------------------------------------------------------------------
